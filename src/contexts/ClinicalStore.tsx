@@ -5,7 +5,7 @@ import {ContextDataType, Result} from "../types";
 const ClinicalStoreContext = createContext<ContextDataType>(
     {} as ContextDataType
 );
-export const ClinicalStoreProvider = ({children}: any) => {
+export const ClinicalStoreProvider = ({children}: never) => {
     const [MedicalsDate, setMedicalsDate] = useState<Result[]>([] as Result[]);
     const [currentMedical, setCurrentMedical] = useState<Result>({} as Result);
     const [pathname, setPathname] = useState("");
