@@ -1,6 +1,6 @@
 import {Box, Container} from "@chakra-ui/react";
 
-export const Content = ({ children }: any) => {
+export const Content = ({ children }: never) => {
   
   return (
     <Box
