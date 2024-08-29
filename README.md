@@ -54,54 +54,32 @@ You must display the following patient fields:
 - ID (Número de identificação)
 - URL para compartilhamento
 
-## Criteria
-You will be assessed based on the following:
-- Code quality
-- Documentation (clear guidelines, README, JS Doc or other in-code documentation)
-- Development strategy
+## Techs and Skills Used
+To Create this project i used the following techs and skills:
+- JS + TS (Base Language)
+- ReactJS + Vite (as Lib to make easy build)
+- Chakra UI as UI Component Lib
+- TailwindCss as auxiliar UI Lib
+- React-Router-Dom to manage all route or navigation
+- tanstack/react-query to Call Api or Network with Api
+- @tanstack/react-table to give filter and advanced Table
+- react-icons to give all icons
+- ContextApi (To Manage our State management in the application)
 - Git Workflow (commit message/structure and well-formed pull-requests)
-- Unit Tests & Integration Tests
 - Live project deployment
 - Project structure and architecture
 - UI/UX Design Skills
 - Design System
-- State management
-- Proficiency in Javascript/Typescript
 - ES6 syntax including arrow functions, destructuring and async/await
-- Proper side effects handling, loading state, and errors
-- Implement daily tools used daily in software development, such as linters, code formatting, Docker…
 - Data sanitation and validation
 
 
-## Extras
+## How it can work
 
-In addition to the challenge proposed with the two screens, we have some differences:
+In the this section, i'll show you how could you run app:
 
-- **Differential 1** Add a filter by Gender in the table;
-- **Differential 2** Configure the search engine to be able to filter by name and nationality;
-- **Differential 3** Add the route pager to make it easier to share the link and maintain its position in the list;
-- **Differential 4** Write Unit Tests or E2E Tests in the Patient List. Choosing the best approach and library;
-
-## Readme from Repository
-
-- Must contain the title of the project
-- A description of the project in one sentence
-- Must contain a list of language, framework and/or technologies used
-- How to install and use the project (instructions)
-- Don't forget [.gitignore](https://www.toptal.com/developers/gitignore)
-
----
----
-
-## Interview Phases
-#### 1st Phase
-A brief 15min held with one of the recruiters to check if there is a match
-
-#### 2nd Phase (Design System)
-You will take a home test to be assessed based on your ability to produce high-quality software that is eligible and easy to work on.
-Your communication skills will be assessed and you will have the opportunity to present and explain the decisions made along the way. Think of it like a roundtable where we will provide feedback and discuss other possible solutions.
-
-#### 3rd Phase and the last one (Culture Fit)
-You will interview directly with HR and Director for a culture interview in our office
-
-#### 4th Phase, you have joined us! YAY!!!
+- **Clone this repo** [Medical Repo Link](https://github.com/Cientista-Avogadro/frontend-engineering-assessment-sebastiao-moniz);
+- 1 - git clone [https://github.com/Cientista-Avogadro/frontend-engineering-assessment-sebastiao-moniz.git](https://github.com/Cientista-Avogadro/frontend-engineering-assessment-sebastiao-moniz)
+- 2 - cd frontend-engineering-assessment-sebastiao-moniz
+- 3 - npm install
+- 4 - npm run dev
